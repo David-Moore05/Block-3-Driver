@@ -20,7 +20,8 @@ MODULE_VERSION("1.0");
 static int major_number; // stores allocated major number
 static char buffer[BUFFER_SIZE]; // internal buffer size
 static size_t buffer_data_size = 0; // keeps track of how much data is stored in the buffer
-//hello 
+//hello
+//hello again
 
 // Input device structure
 static struct input_dev *tablet_input_dev = NULL;
